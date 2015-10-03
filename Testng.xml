@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite" verbose="3" parallel="tests">
+ 
+
+<test name="Testing1">
+<parameter name="browser" value="firefox"/>
+<parameter name="machineIP" value="http://192.168.133.1:5556/wd/hub"/>
+<parameter name="baseURL" value="http://google.com"/>
+    <classes>
+        <class name="com.selenium.testcases.Gsearch" ></class>  
+    </classes>
+</test>
+
+<test name="Testing2">
+<parameter name="browser" value="firefox"/>
+<parameter name="machineIP" value="http://192.168.133.1:5557/wd/hub"/>
+<parameter name="baseURL" value="http://google.com"/>
+    <classes>
+        <class name="com.selenium.testcases.Gsearch" ></class>  
+    </classes>
+</test>
+
+<test name="Testing3">
+<parameter name="browser" value="firefox"/>
+<parameter name="machineIP" value="http://192.168.133.1:5558/wd/hub"/>
+<parameter name="baseURL" value="http://yahoo.com"/>
+    <classes>
+        <class name="com.selenium.testcases.Ytesting" ></class>  
+    </classes>
+</test>
+
+
+</suite>

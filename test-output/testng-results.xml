@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Sample Suite" duration-ms="39464" started-at="2014-05-25T10:22:28Z" finished-at="2014-05-25T10:23:08Z">
+    <groups>
+    </groups>
+    <test name="Testing2" duration-ms="28992" started-at="2014-05-25T10:22:28Z" finished-at="2014-05-25T10:22:57Z">
+      <class name="com.selenium.testcases.Gsearch">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.testcases.Gsearch@19d56e9]" name="setup" is-config="true" duration-ms="27673" started-at="2014-05-25T15:52:28Z" finished-at="2014-05-25T15:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f66b36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testexe()[pri:0, instance:com.selenium.testcases.Gsearch@19d56e9]" name="testexe" duration-ms="1304" started-at="2014-05-25T15:52:56Z" finished-at="2014-05-25T15:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexe -->
+      </class> <!-- com.selenium.testcases.Gsearch -->
+    </test> <!-- Testing2 -->
+    <test name="Testing1" duration-ms="33286" started-at="2014-05-25T10:22:28Z" finished-at="2014-05-25T10:23:01Z">
+      <class name="com.selenium.testcases.Gsearch">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.testcases.Gsearch@135f92f]" name="setup" is-config="true" duration-ms="31563" started-at="2014-05-25T15:52:28Z" finished-at="2014-05-25T15:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c1d10c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testexe()[pri:0, instance:com.selenium.testcases.Gsearch@135f92f]" name="testexe" duration-ms="1713" started-at="2014-05-25T15:53:00Z" finished-at="2014-05-25T15:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexe -->
+      </class> <!-- com.selenium.testcases.Gsearch -->
+    </test> <!-- Testing1 -->
+    <test name="Testing3" duration-ms="39464" started-at="2014-05-25T10:22:28Z" finished-at="2014-05-25T10:23:08Z">
+      <class name="com.selenium.testcases.Ytesting">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.testcases.Ytesting@10b9a58]" name="setup" is-config="true" duration-ms="38137" started-at="2014-05-25T15:52:28Z" finished-at="2014-05-25T15:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dfdd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testexe()[pri:0, instance:com.selenium.testcases.Ytesting@10b9a58]" name="testexe" duration-ms="1317" started-at="2014-05-25T15:53:06Z" finished-at="2014-05-25T15:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexe -->
+      </class> <!-- com.selenium.testcases.Ytesting -->
+    </test> <!-- Testing3 -->
+  </suite> <!-- My Sample Suite -->
+</testng-results>
